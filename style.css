@@ -1,0 +1,629 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&family=Roboto+Slab:wght@700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+p,
+.text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #292733;
+}
+
+h1{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 49px;
+    line-height: 105.5%;
+    color: #292733;
+    text-transform: uppercase;
+}
+
+h2{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    color: #F1F3F4;
+}
+
+h3{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 118.5%; 
+}
+
+h4{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 105.5%;
+    color: #fff;
+}
+
+h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #888888;
+}
+
+.button--white{
+    padding: 20px 40px;
+    color: #C20502;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.button--red{
+    padding: 20px 40px;
+    background: #C20502;
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 11px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.container{
+    padding: 0 132px;
+}
+
+.bg--black{
+    background: #000;
+}   
+
+.bg--white{
+    background: #fff;
+}
+
+.bg--primary{
+    background: #C20502;
+}
+
+
+.color--white{
+    color: #fff;
+}
+
+.color--grey{
+    color: #888888; 
+}
+
+.header{
+    background-color: #292733;
+    padding: 20px;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.header__nav-logo{
+    text-align: center;
+}
+
+.header__logo-link{
+
+}
+
+.header__menu{
+    display: flex;
+    justify-content: center;
+}
+
+.header__menu-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__menu-item{
+    padding: 0 8px;
+}
+
+.header__menu-link{
+    text-transform: uppercase;
+}
+
+.header__menu-link.active{
+    color: #C20502;
+}
+
+.header__menu-link:hover{
+    transition: 300ms;
+    color: #C20502;
+}
+
+.header__logo-menu{
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.header__menu-logo-list{
+    display: flex;
+    justify-content: center;
+}
+
+.menu-logo-item{
+    margin: 0 .5rem;
+}
+
+
+/* BANNER */
+
+.banner{
+    background: url('./assets/banner-bg.png') center / cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.banner__text{
+    text-align: right;
+    width: 40%;
+}
+
+/* SERVICES */
+
+.services{
+    padding-top: 54px;
+    padding-bottom: 54px;
+}
+
+.services__list{
+    display: flex;
+    justify-content: center;
+    gap: 118px;
+}
+
+.services__list-text{
+    text-transform: uppercase;
+    margin-top: 13px;
+    color: #fff;
+}
+
+.services__list-item{
+    text-align: center;
+}
+
+/* CALL TO ACTION  */
+
+.logo-inquire{
+    display: flex;
+}
+
+.logo-inquire__logo-box{
+    flex-basis: 45%;
+    background: url('./assets/cta-bg-1.png') center / cover;
+    display: flex;
+    justify-content: center;
+    padding: 101px 0;
+}
+
+.logo-inquire__inquire-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo-inquire__inquire-text{
+    background: url('./assets/cta-bg-2.png') center / cover;
+    flex-basis: 55%;
+}
+
+/* RICH TEXT ONE */
+
+.rich-text-one{
+    padding: 106px 0 91px 0;
+    display: grid;
+    place-items: center;
+    background: url('./assets/rich-text-one-bg.png') center / cover;
+}
+
+.rich-text-one__heading{
+    color: #fff;
+    text-align: center;
+    max-width: 892px;
+}
+
+.rich-text-one__text{
+    color: #fff;
+    max-width: 892px;
+    margin: 17px 0;
+    text-align: center;
+}
+
+/* CALL TO ACTION ONE */
+
+.cta-one{
+    display: flex;
+}
+
+.cta-one__col-1{
+    display: flex;
+    background-color: #000;
+    flex-basis: 55%;
+}
+
+.cta-one__img-one{
+    margin-bottom: -60px;
+    width: 525px;
+}
+
+.cta-one__button-text{
+    margin: auto;
+}
+
+.cta-one__col-2{
+    display: flex;
+    flex-direction: column;
+    background-color: #F1F3F4;
+    flex-basis: 45%;
+    place-items: center;
+}
+
+.cta-one__button-heading{
+    margin-bottom: 24px;
+}
+
+.cta-one__prod-desc{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 365px;
+}
+
+.cta-one__img-two{
+    width: 365px;
+    height: auto;
+}
+
+.cta-one__prod-desc__h2{
+    font-size: 32px;
+    color: #000;
+}
+
+/* PRODUCTS */
+
+.products{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.products__heading{
+    font-size: 64px;
+    line-height: 59px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.products__list{
+    display: flex;
+    justify-content: space-between;
+    margin: 41px 0;
+}
+
+.products__list-item{
+    width: 282px;
+}
+
+.products__list-item > *{
+    display: block;
+}
+
+.products__type{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #888888;
+    padding-top: 16px;
+}
+
+.products__desc{
+    margin: 10px 0;
+}
+
+.products__price{
+    color: #C20502;
+}
+
+.flex-row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.product-two{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* CALL TO ACTION 2 */
+
+.cta-two{
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.cta-two__col{
+    flex-basis: 50%;
+}
+
+.cta-two__col-1{
+    height: 590px;
+    background: url('./assets/cta-2-bg.png') center/cover;
+}
+
+.cta-two__col-2{
+    display: flex;
+    background: #C20502;
+}
+
+.cta-two__button-text{
+    justify-self: center;
+    align-self: center;
+    padding: 0 72px;
+}
+
+.cta-two__button-heading{
+    margin-bottom: 40px;
+}
+
+/* CALL TO ACTION 3 */
+
+.cta-three{
+    display: flex;
+    height: 471px;
+}
+
+.cta-three__col{
+    flex-basis: 50%;
+    display: flex;
+    place-items: center;
+}
+
+.cta-three__col-1{
+    padding-left: 132px;
+    background: url('./assets/cta-3-bg-1.png') center / cover;
+}
+
+.cta-three__col-2{
+    padding-right: 132px;
+    background: url('./assets/cta-3-bg-2.png') center / cover;
+}
+
+.cta-three__col-2 .cta-three__button-text{
+    margin-left: 62px;
+}
+
+.cta-three__button-text{
+    width: 100%;
+}
+
+.cta-three__button-heading{
+    margin: 13px 0 24px 0;
+}
+
+.cta-three__button-subheading{
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+/* RICH TEXT TWO */
+
+.rich-text-two{
+    padding: 106px 0 91px 0;
+    display: grid;
+    place-items: center;
+    background: url('./assets/rich-text-two-bg.png') center / cover;
+}
+
+.rich-text-two__heading{
+    color: #fff;
+    text-align: center;
+    width: 1108px;
+}
+
+.rich-text-two__text{
+    color: #fff;
+    width: 1108px;
+    margin: 17px 0;
+    text-align: center;
+}
+
+.pagination{
+    margin-top: 85px;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination__list{
+    display: flex;
+}
+
+.pagination__item{
+    height: 40px;
+    width: 40px;
+    display: grid;
+    place-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(7, 87, 182, 0.15);
+    color: #C20502;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.opacity-one{
+    opacity: 0;
+}
+
+.opacity-zero{
+    opacity: 1;
+}
+
+.pagination__item:hover {
+    background: #C20502;
+    color: #fff;
+}
+
+.pagination__item:hover .opacity-zero{
+    opacity: 0;
+}
+
+.pagination__item:hover .opacity-one{
+    opacity: 1;
+}
+
+
+/* NEWSLETTER */
+
+.newsletter{
+    padding-top: 110px;
+    padding-bottom: 110px;
+    display: flex;
+    justify-content: center;
+    background-color: #C20502;
+}
+
+.newsletter__box{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.newsletter__heading,
+.newsletter__subheading{
+    align-self: center;
+}
+
+.newsletter__heading{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 105.5%;
+}
+
+.newsletter__subheading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.newsletter__subheading{
+    margin: 12px 0 54px 0;
+}
+
+.newsletter__email-box{
+    padding: 20px 32px;
+    background: #fff;
+    display: flex;
+}
+
+#newsletter__searchbar{
+    border: none;
+    font-size: 16px;
+    outline: none;
+    width: 100%;
+    padding-right: 24px;
+}
+
+
+
+
+/* FOOTER */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background: #292733;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer__col{
+    flex-basis: 20%;
+}
+
+.footer__col-1 > *{
+    display: block;
+}
+
+.footer__contact{
+    margin: 18px 0;
+}
+
+.footer-linktext{
+    color: #888888;
+}
+
+.footer__col-heading{
+    margin-bottom: 26px;
+}
+
+.footer__col-item{
+    margin-bottom: 13px;
+}
+
+.footer-last{
+    background: #17161D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
